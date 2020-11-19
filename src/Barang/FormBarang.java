@@ -84,7 +84,8 @@ public class FormBarang extends javax.swing.JFrame {
         b.setQTY(Integer.valueOf(tfQTY.getText()));
         b.setHARGA(Integer.valueOf(tfHARGA.getText()));
         bc.update(b);
-
+        
+        TAG = true;
         clear();
     }
 
